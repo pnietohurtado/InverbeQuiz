@@ -63,7 +63,11 @@ public class FinalActivity extends AppCompatActivity {
 
         lista = db.obtenerTop3();
 
-        top.setText(lista.toString());
+        String top1 = lista.get(0);
+        String top2 = lista.get(1);
+        String top3 = lista.get(2);
+
+        top.setText(" Top 1: " + top1 + "\n" + " Top 2: " + top2 + "\n" + " Top 3: " + top3);
 
     }
 }

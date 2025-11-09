@@ -44,7 +44,7 @@ public class MiDBHelper extends SQLiteOpenHelper {
         ArrayList<String> lista = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
 
-        Cursor cursor = db.rawQuery("SELECT id, nombre, score FROM ranking ORDER BY score DESC LIMIT 3", null);
+        Cursor cursor = db.rawQuery("SELECT nombre FROM ranking ORDER BY score DESC LIMIT 3", null);
 
         if (cursor.moveToFirst()) {
             do {

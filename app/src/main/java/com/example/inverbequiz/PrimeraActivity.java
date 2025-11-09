@@ -49,6 +49,8 @@ public class PrimeraActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
+
+
         contador = intent.getIntExtra("contador", 0);
         nombre = intent.getStringExtra("nombre");
 

@@ -35,13 +35,15 @@ public class MainActivity extends AppCompatActivity {
         nombre = findViewById(R.id.Name);
         iniciar = findViewById(R.id.Iniciar);
 
+        String nick = String.valueOf(nombre.getText());
+
         this.contador = 0;
 
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(MainActivity.this, PrimeraActivity.class);
-                intent.putExtra("nombre", nombre.getText());
+                intent.putExtra("nombre", nick);
                 intent.putExtra("contador", contador);
                 startActivity(intent);
             }
