@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">InverbeQuiz</string>
+    <string name="titulo">Inverbe Quiz</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="end">THE END</string>
+    <string name="top"> TOP 3: </string>
+
+    <!-- Empezar -->
+    <string name="Boton_Inicio">Iniciar </string>
+
+    <!-- Pregunta Uno -->
+    <string name="Pregunta_Uno">¿Qué mote le puso Josegui a Andrés?</string>
+
+    <string name="Respuesta_Uno_Uno">Einstein</string>
+    <string name="Respuesta_Uno_Dos">Inverbe</string>
+    <string name="Respuesta_Uno_Tres">Leproso</string>
+
+    <!-- Pregunta Dos -->
+    <string name="Pregunta_Dos">¿Dónde se montó Andrés el día de la feria de empleo?</string>
+
+    <string name="Respuesta_Dos_Uno">En un sifón</string>
+    <string name="Respuesta_Dos_Dos">En un globo</string>
+    <string name="Respuesta_Dos_Tres">Todas son correctas</string>
+
+
+    <!-- Pregunta Uno -->
+    <string name="Pregunta_Tres">¿Qué parte de la anatomía de Teleco le gusta más a Andrés?</string>
+
+    <string name="Respuesta_Tres_Uno">Los brazos</string>
+    <string name="Respuesta_Tres_Dos">No sabe no contesta</string>
+    <string name="Respuesta_Tres_Tres">Los pectorales</string>
+
+    <!-- Pregunta Uno -->
+    <string name="Pregunta_Cuatro">¿Qué dedo tiene a la mitad Andrés?</string>
+
+    <string name="Respuesta_Cuatro_Uno">El dedo gordo del pie</string>
+    <string name="Respuesta_Cuatro_Dos">La falange octava</string>
+    <string name="Respuesta_Cuatro_Tres">El dedo meñique</string>
+
+
+    <!-- Pregunta Uno -->
+    <string name="Pregunta_Cinco">¿Cuántas veces ha estado el coche de Andrés en el taller?</string>
+
+    <string name="Respuesta_Cinco_Uno">12</string>
+    <string name="Respuesta_Cinco_Dos">43</string>
+    <string name="Respuesta_Cinco_Tres">35</string>
+
+
+
+    <!--Numero-->
+    <string name="uno" >1/5</string>
+    <string name="dos" >2/5</string>
+    <string name="tres" >3/5</string>
+    <string name="cuatro" >4/5</string>
+    <string name="cinco" >5/5</string>
+
+</resources>
